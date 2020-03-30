@@ -1,0 +1,141 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.landing{
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 17%, rgba(115,9,9,1) 100%, rgba(255,0,0,1) 100%);
+}
+
+.landing img{
+  height: 200px;
+  width: 200px;
+}
+
+.landing h1{
+  color: #730909;
+}
+
+.landing h3{
+  color: #730909;
+}
+
+.glow{
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+}
+
+nav {
+  background-color: #c72216;
+  padding: 5px;
+}
+
+nav ul{
+  margin-left: 10%;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover{
+  font-weight: 600;
+}
+
+main{
+  padding: 20px 0;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+#content{
+  flex-basis: 72%;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+article{
+  padding: 15px;
+  color: #545454;
+}
+
+article ul{
+  margin-left: 15px;
+}
+
+article img{
+  display: block;
+  margin: 15px auto;
+  width: 60%;
+}
+
+aside{
+  height: fit-content;
+  padding: 15px ;
+  flex-basis: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+aside > img{
+  height: 150px;
+  border: 2px solid #730909;
+  border-radius: 50%;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.address{
+  margin: 20px auto 5px;
+}
+
+.address, .email{
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.83em;
+  font-weight: 600;
+}
+
+.address img, .email img{
+  margin-right: 5px;
+}
+
+footer{
+  background-color: #c72216;
+  padding: 10px;
+}
+
+footer p{
+  text-align: center;
+  color: #ffffff;
+}
